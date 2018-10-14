@@ -1,0 +1,125 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "星占い",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HoroscopeIntent",
+                    "slots": [
+                        {
+                            "name": "StarSign",
+                            "type": "StarSign"
+                        }
+                    ],
+                    "samples": [
+                        "{StarSign}",
+                        "{StarSign} の運気は",
+                        "{StarSign} の運気はどう",
+                        "{StarSign} の運気を教えて",
+                        "{StarSign} の運勢は",
+                        "{StarSign} の運勢はどう",
+                        "{StarSign} の運勢を教えて",
+                        "{StarSign} を占って"
+                    ]
+                },
+                {
+                    "name": "SynastryIntent",
+                    "slots": [],
+                    "samples": [
+                        "相性",
+                        "相性を聞きたい",
+                        "相性が聞きたい",
+                        "相性を知りたい",
+                        "相性はどう",
+                        "相性が知りたい",
+                        "相性を教えて",
+                        "相性を占って"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "StarSign",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "うお座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "みずがめ座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "やぎ座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "いて座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "さそり座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "てんびん座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "おとめ座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "しし座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "かに座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ふたご座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "おうし座"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "おひつじ座"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
